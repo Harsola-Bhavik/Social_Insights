@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed; /* Ensures the navbar stays at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the navbar span the entire width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    color: #fff;
+    z-index: 10; /* Ensure it's above other content */
+}
+  
+.logo-container {
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+}
+
+.navbar-logo {
+    width: 40px; /* Adjust the size of your logo */
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50px; /* Add space between logo and text */
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    margin: 50px;
+    margin-left: 9px;
+    text-decoration: none;
+    font-size: larger;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth transition for the glow effect */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7); /* Glow effect */
+}

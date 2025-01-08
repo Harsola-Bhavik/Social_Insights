@@ -1,0 +1,59 @@
+.home {
+    position: relative;
+    background-image: url('/public/1.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center;
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Flexbox to center the content */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling caused by the background */
+}
+
+body {
+    margin: 0; /* Removes default browser margin */
+    overflow-x: hidden; /* Disables horizontal scrolling */
+}
+
+.overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Darker transparent overlay */
+    padding: 30px 50px;
+    border-radius: 15px;
+    color: #fff;
+    max-width: 700px; /* Limit the width of the content */
+    box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.6); /* Soft white glow around the box */
+}
+
+/* Glow effect for heading (Optional, if required) */
+.overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Glow effect for button */
+.get-started {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(108, 99, 255, 0.8), 
+                0 0 30px rgba(108, 99, 255, 0.6); /* Add glow effect */
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.get-started:hover {
+    background-color: #5754d7;
+    box-shadow: 0 0 25px rgba(108, 99, 255, 1), 
+                0 0 50px rgba(108, 99, 255, 0.9); /* Stronger glow on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
