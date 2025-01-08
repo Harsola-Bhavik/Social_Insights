@@ -9,10 +9,6 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="navbar-logo" />
         <span className="logo-text">Post Pulse</span>
       </div>
-      <div className="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-      </div>
     </nav>
   );
 };
