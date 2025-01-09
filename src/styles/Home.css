@@ -50,6 +50,7 @@ body {
     box-shadow: 0 0 15px rgba(108, 99, 255, 0.8), 
                 0 0 30px rgba(108, 99, 255, 0.6); /* Add glow effect */
     transition: transform 0.2s, box-shadow 0.3s;
+    text-decoration: none;
 }
 
 .get-started:hover {
