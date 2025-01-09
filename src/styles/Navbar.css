@@ -28,9 +28,3 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
-
-
-.nav-links a:hover {
-    text-decoration: underline;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7); /* Glow effect */
-}
