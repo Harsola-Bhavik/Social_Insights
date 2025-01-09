@@ -29,14 +29,6 @@
     font-weight: bold;
 }
 
-.nav-links a {
-    margin: 50px;
-    margin-left: 9px;
-    text-decoration: none;
-    font-size: larger;
-    color: #fff;
-    transition: all 0.3s ease; /* Smooth transition for the glow effect */
-}
 
 .nav-links a:hover {
     text-decoration: underline;
