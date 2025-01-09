@@ -35,6 +35,7 @@ body {
 .overlay p {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    text-shadow: 0 0 0px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7);
 }
 
 /* Glow effect for button */
